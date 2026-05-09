@@ -1,0 +1,57 @@
+.card {
+  border-radius: 1rem;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.4);
+  width: 100%;
+  padding: 1.5rem;
+  backdrop-filter:blur(2px);
+}
+
+.card-name {
+  font-size: 2.5rem;
+  margin: 0 0 0.75rem 0;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-right a {
+  color: inherit;
+}
+
+.card-image {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 4rem;
+  display:block;
+}
+
+.card-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.card-description {
+  flex: 1;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

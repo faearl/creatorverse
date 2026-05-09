@@ -1,0 +1,129 @@
+.creator-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  border-radius: 1rem;
+  padding: 20px;
+  width: fit-content;
+  border: 5px solid #333;
+  text-align: center;
+}
+
+.creator {
+  max-width: 50rem;
+  width: 90%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.creator-body {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(1px);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.creator-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.creator-image {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1rem;
+  border: 3px solid #333;
+}
+
+.creator-link {
+  font-size: 2.2rem;
+  text-decoration: none;
+}
+
+.creator-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.creator-name {
+  font-size: 3.5rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.creator-description {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 3rem 2rem 3rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 1rem;
+}
+
+.creator-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.edit-button,
+.delete-button {
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Chewy', sans-serif;
+  border: 2px solid;
+}
+
+.edit-button {
+  color: #ff9ae9;
+  border-color: #ff9ae9;
+}
+
+.edit-button:hover {
+  background-color: #ff9ae9;
+  color: white;
+}
+
+.delete-button {
+  color: black;
+  border-color: black;
+}
+
+.delete-button:hover {
+  background-color: black;
+  color: white;
+}
