@@ -35,14 +35,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/IY8YNDY.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img width="467" height="378" alt="creatorversepreview" src="https://github.com/user-attachments/assets/f5e7a8a6-8776-43a5-afee-16f9030989ec" />
 
 GIF created with ...  Kap
-<!-- Recommended tools:
 
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
